@@ -1,0 +1,31 @@
+.container{
+    width: 400px;
+    height: 200px;
+    border: 1px solid rgba(9, 75, 64, 0.802);
+    display: flex;
+    justify-content: space-evenly;
+}
+.left-side{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 5px;
+}
+.right-side{
+    background-color: rgba(33, 119, 108, 0.909);
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    background-color: rgba(33, 119, 108, 0.909);
+    margin: 10px;
+    border-radius: 6px;
+    border: none;
+}
+h3, label{
+    color: rgba(15, 45, 42, 0.909);
+    padding: 4px;
+}
+
